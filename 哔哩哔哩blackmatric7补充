@@ -1,0 +1,4 @@
+# > BiliBili_哔哩哔哩_小卡片广告@ddgksf2013
+^https://api.bilibili.com/pgc/season/player/cards url reject-dict
+# > BiliBili_哔哩哔哩_视频播放下方商品推广@ddgksf2013
+^https?:\/\/api\.bili(api|bili)\.(net|com)\/pgc\/season\/app\/related\/recommend\? url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/bilibili_json.js
