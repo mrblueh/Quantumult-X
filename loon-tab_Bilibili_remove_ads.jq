@@ -1,5 +1,4 @@
 #引用自https://raw.githubusercontent.com/sooyaaabo/KeleeOne/refs/heads/Loon/JQLang/tab_Bilibili_remove_ads.jq
-
 .data.tab = [
     {
         pos: 1,
