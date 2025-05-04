@@ -1,3 +1,5 @@
+#引用自https://raw.githubusercontent.com/sooyaaabo/KeleeOne/refs/heads/Loon/JQLang/tab_Bilibili_remove_ads.jq
+
 .data.tab = [
     {
         pos: 1,
@@ -15,21 +17,14 @@
         default_selected: 1
     },
     {
-        pos: 3, 
-        id: 478,
-        name: "热门",
-        tab_id: "热门tab",
-        uri: "bilibili://pegasus/hottopic"
-    },
-    {
-        pos: 4,
+        pos: 3,
         id: 545,
         name: "动画",
         tab_id: "bangumi",
         uri: "bilibili://pgc/home"
     },
     {
-        pos: 5,
+        pos: 4,
         id: 151,
         name: "影视",
         tab_id: "film",
