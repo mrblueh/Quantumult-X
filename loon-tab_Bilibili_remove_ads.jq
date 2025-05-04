@@ -3,14 +3,14 @@
     {
         pos: 1,
         id: 731,
-        name: "推荐",
+        name: "\u76F4\u64AD",
         tab_id: "\u76F4\u64ADtab",
         uri: "bilibili://live/home"
     },
     {
         pos: 2,
         id: 477,
-        name: "推荐",
+        name: "\u63A8\u8350",
         tab_id: "\u63A8\u8350tab",
         uri: "bilibili://pegasus/promo",
         default_selected: 1
@@ -18,14 +18,14 @@
     {
         pos: 3,
         id: 545,
-        name: "番剧",
+        name: "\u52A8\u753B",
         tab_id: "bangumi",
         uri: "bilibili://pgc/home"
     },
     {
         pos: 4,
         id: 151,
-        name: "影视",
+        name: "\u5F71\u89C6",
         tab_id: "film",
         uri: "bilibili://pgc/cinema-tab"
     }
