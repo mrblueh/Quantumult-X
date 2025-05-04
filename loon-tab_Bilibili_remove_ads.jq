@@ -1,3 +1,4 @@
+引用自#https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/jq/bilibili.tab.jq
 .data.tab = [
     {
         pos: 1,
