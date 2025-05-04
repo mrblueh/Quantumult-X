@@ -1,3 +1,8 @@
+
+
+hostname = -broadcast.chat.bilibili.com, -cm.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net, app.bilibili.com, api.live.bilibili.com, *.bilibili.com, *.bili*.*, *.bilibili.*, grpc.biliapi.net,*biliapi.net
+
+
 # ======= BiliJson 外观处理 ======= #
 # > BiliBili_哔哩哔哩_标签页处理@ddgksf2013
 ^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/bilibili_json.js
