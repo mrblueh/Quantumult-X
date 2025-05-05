@@ -130,7 +130,9 @@ const enableMall = Boolean(magicJS.read(bilibili_enable_mall));
             741 我的钱包
             742 稿件管理
            */
-          const itemList = new Setnew Set([396,397,398,399,407,410,402,404,425,426,427,428,430,432,433,434,494,495,496,497,500,501,2830,3072,3084]);
+          const itemList = new Set([
+            396, 397, 3072, 2830, 398, 399, 171, 172, 534, 8, 4, 428, 352, 1, 405, 402, 404, 544, 407, 410, 425, 426, 427, 428, 171, 430, 431, 432, 494, 495, 496, 497, 500, 501, 741, 742,
+          ]);
           obj["data"]["sections_v2"].forEach((element, index) => {
             let items = element["items"].filter((e) => {
               return itemList.has(e.id);
